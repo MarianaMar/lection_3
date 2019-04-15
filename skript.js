@@ -59,6 +59,8 @@ const age = 25;
  const list = ['хліб','молоко', 'сир', 'апельсин' ];
  const list2 = ['хліб','молоко', 'апельсин' ];
 
+ const list3 = ['хліб','молоко', 'Aпельсин' ];
+
 
  function createlist (array){
      for (let i=0; i<array.length; i++) {
@@ -69,6 +71,7 @@ const age = 25;
  }
  createlist(list);
  createlist(list2);
+ createlist(list3);
 
 
 
